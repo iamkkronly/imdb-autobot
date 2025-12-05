@@ -16,6 +16,7 @@ This project is set up to be deployed as a Vercel Serverless Function.
 
 - `id`: The IMDb ID (e.g., `tt0111161`).
 - `url`: The full IMDb URL (e.g., `https://www.imdb.com/title/tt0111161/`).
+feature/imdb-search-title
 - `title`: The movie or show title (e.g., `The Godfather`).
 
 You must provide one of `id`, `url`, or `title`.
@@ -28,6 +29,13 @@ You must provide one of `id`, `url`, or `title`.
 **By Title:**
 `GET /api?title=The+Godfather`
 
+
+
+
+
+
+
+main
 ### Response
 
 ```json
